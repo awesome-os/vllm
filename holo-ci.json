@@ -1,0 +1,15 @@
+{
+  "schema": "holo-ci.v1",
+  "name": "vllm",
+  "kind": "native-fork",
+  "tests": [
+    "node -e \"const fs=require('node:fs'); const m=JSON.parse(fs.readFileSync('awesome-os/v11-max-lock.json','utf8')); if(m.abiMagic!=='0x33564742') process.exit(1)\""
+  ],
+  "docs": [
+    "README.md"
+  ],
+  "guards": {
+    "zeroGhost": true,
+    "zeroCasV1": true
+  }
+}
