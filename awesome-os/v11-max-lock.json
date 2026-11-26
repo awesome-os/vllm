@@ -8,10 +8,10 @@
     "openssl": "4.1.0",
     "zstd": "1.6.0",
     "zlib-ng": "2.3.3",
-    "protobuf": "7.36.1",
+    "protobuf": "36.2",
     "ffmpeg": "9.1",
-    "libuv": "1.51.0",
-    "cmake": "4.2.3",
+    "libuv": "1.53.0",
+    "cmake": "4.5.1",
     "ninja": "1.13.2",
     "curl": "8.23.0"
   },
