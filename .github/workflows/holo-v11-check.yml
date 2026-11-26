@@ -26,7 +26,7 @@ jobs:
           echo "Holo v11 structure verified for vllm (workflows: ${WF_COUNT})"
           {
             printf '### Holo v11 Repository Check — vllm\n\n'
-            printf '- **Branch:** `main`\n'
-            printf '- **Workflow Count:** `%s`\n' "${WF_COUNT}"
-            printf '- **Status:** Structure verified (Holo v11 unified)\n'
+            printf -- '- **Branch:** `main`\n'
+            printf -- '- **Workflow Count:** `%s`\n' "${WF_COUNT}"
+            printf -- '- **Status:** Structure verified (Holo v11 unified)\n'
           } >> "$GITHUB_STEP_SUMMARY"
